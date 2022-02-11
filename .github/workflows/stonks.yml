@@ -1,0 +1,182 @@
+# Made by EDM115
+name: GitHub auto-commit creator with GitHub
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+    - 'v*'
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *" #crontab.guru
+  watch:
+    types: [started]
+jobs:
+  stonks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Modify last update
+        run: |
+          d = `date '+%Y-%m-%dT%H:%M:%SZ'`
+          echo $d > TEMP
+      - name: Commit changes
+        run: |
+          git config --local user.email ${{ secrets.MAIL }}
+          git config --local user.name ${{ secrets.USERNAME }}
+          git add -A
+          txt[0] = "Sometimes your mistakes can surprise you"
+          txt[1] = "People who say they have nothing to hide almost always do"
+          txt[2] = "I don’t particularly like killing people, but I’m very good at it"
+          txt[3] = "Once we become predictable, we become vulnerable"
+          txt[4] = "You always have a choice, even if it’s between two bad options"
+          txt[5] = "The most efficient way to lose in a fight is to act without knowing your enemy"
+          txt[6] = "We have free will, and with that comes great responsibility, and some times great loss"
+          txt[7] = "If they don’t want you to get inside, they ought to build it better"
+          txt[8] = "Bad guys always run"
+          txt[9] = "Obstacles are only obstacles until you move them out of the way"
+          txt[10] = "The problem with trying to be the bad guy is there’s always someone worse"
+          txt[11] = "We walk in the dark. Doesn’t mean we have to walk in it alone"
+          txt[12] = "When the whole world is watched, filed, indexed, numbered, the only way to disappear is to appear"
+          txt[13] = "Not everything that’s broken is meant to be fixed"
+          txt[14] = "Maybe there are no good people. Maybe there are only good decisions"
+          txt[15] = "No one ever said we were gonna win, but it doesn’t mean you stop fighting"
+          txt[16] = "The correct animal for inter-species super soldier is the koala. You would wind up with an army so cute, it couldn’t be attacked"
+          txt[17] = "I promised myself if I ever got friends I’d do whatever they said. Really, I’m lucky you found me before a cult did"
+          txt[18] = "Indian Monopoly is just like regular Monopoly, but instead of money you use rupees, instead of building hotels you build call centers, and when you pick up a chance card there’s a chance you die of dysentery. And just FYI, that was racist"
+          txt[19] = "Love is not a sprint, it’s a marathon, a relentless pursuit that only ends when she falls into your arms (or hits you with the pepper spray)"
+          txt[20] = "That is a good point. But I didn’t marry you for good points. I married you to blindly support me no matter how ridiculous I’m being"
+          txt[21] = "If it’s ‘creepy’ to use the Internet, military satellites, and robot aircraft to find a house full of gorgeous young models so I can drop in on them unexpected, then fine, I’m creepy"
+          txt[22] = "Not really a great outfit for work, unless something opens up in the hookers and whores department"
+          txt[23] = "I know the real reason you never made progress with that idea. You thought of it September 22nd, 2007. Two days later, Penny moved in and so much blood rushed to your genitals, your brain became a ghost town"
+          txt[24] = "I often forget other people have limitations. It’s so sad"
+          txt[25] = "The only way she’d be able to make a contribution to science is if they resume sending chimps into space"
+          txt[26] = "Trying is the first step toward failure"
+          txt[27] = "I’m sure wherever my Dad is, he’s looking down on us. He’s not dead, just very condescending"
+          txt[28] = "Good parenting means investing in your child’s future, which is why I am saving to buy mine a hoverboard someday"
+          txt[29] = "The whole purpose of places like Starbucks is for people with no decision-making ability whatsoever to make six decisions just to buy one cup of coffee. Short, tall, light, dark, caf, decaf, low-fat, non-fat. So people who don’t know what they’re doing, or who on earth they are can, for only $2.95, get not just a cup of coffee but an absolutely defining sense of self"
+          txt[30] = "Why can’t you just be happy for me and then go home and talk behind my back later like a normal person ?"
+          txt[31] = "Brian : “Look, you’ve got it all wrong. You don’t need to follow me. You don’t need to follow anybody. You’ve got to think for yourselves. You’re all individuals.” Crowd : “Yes, we’re all individuals !” Individual : “I’m not !”"
+          txt[32] = "My husband and I fell in love at first sight. Maybe I should have taken a second look"
+          txt[33] = "Never put off till tomorrow what you can do the day after tomorrow just as well"
+          txt[34] = "I prefer not to think before speaking. I like being as surprised as everyone else by what comes out of my mouth"
+          txt[35] = "There is one word that describes people that don’t like me : Irrelevant"
+          txt[36] = "Francois : “Do you know what kind of a bomb it was ?” Clouseau : “The exploding kind”"
+          txt[37] = "A day without sunshine is like, you know, night"
+          txt[38] = "Accept who you are. Unless you’re a serial killer"
+          txt[39] = "To call you stupid would be an insult to stupid people !"
+          txt[40] = "I never forget a face - but in your case, I’ll be glad to make an exception"
+          txt[41] = "As you get older, three things happen. The first is your memory goes, and I can’t remember the other two"
+          txt[42] = "If I’m not back in five minutes, just wait longer"
+          txt[43] = "Common sense is like deodorant. The people who need it most never use it"
+          txt[44] = "I saw a study that said speaking in front of a crowd is considered the number one fear of the average person. Number two was death. This means to the average person, if you have to be at a funeral, you would rather be in the casket than doing the eulogy"
+          txt[45] = "I’m not insane. My mother had me tested"
+          txt[46] = "Truth hurts. Maybe not as much as jumping on a bicycle with a seat missing, but it hurts"
+          txt[47] = "You know you’ve reached middle age when you’re cautioned to slow down by your doctor, instead of by the police"
+          txt[48] = "I haven’t spoken to my wife in years. I didn’t want to interrupt her"
+          txt[49] = "I love being married. It’s so great to find that one special person you want to annoy for the rest of your life"
+          txt[50] = "Before you marry a person, you should first make them use a computer with slow Internet to see who they really are"
+          txt[51] = "Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes"
+          txt[52] = "You know what kind of plan never fails ? No plan. No plan at all. You know why ? Because life cannot be planned"
+          txt[53] = "Why so serious ?"
+          txt[54] = "A million dollars isn’t cool. You know what’s cool ? A billion dollars"
+          txt[55] = "A martini. Shaken, not stirred"
+          txt[56] = "I feel the need - the need for speed !"
+          txt[57] = "Life is a banquet, and most poor suckers are starving to death !"
+          txt[58] = "My precious…"
+          txt[59] = "Hasta la vista, baby !"
+          txt[60] = "Open the pod bay doors, HAL"
+          txt[61] = "I have always depended on the kindness of strangers"
+          txt[62] = "Get your stinking paws off me, you damned dirty ape"
+          txt[63] = "Elementary, my dear Watson"
+          txt[64] = "Gentlemen, you can’t fight in here ! This is the War Room !"
+          txt[65] = "Say “hello” to my little friend !"
+          txt[66] = "Keep your friends close, but your enemies closer"
+          txt[67] = "Houston, we have a problem"
+          txt[68] = "I’ll be back"
+          txt[69] = "I see dead people…"
+          txt[70] = "Badges ? We ain’t got no badges ! We don’t need no badges ! I don’t have to show you any stinking badges !"
+          txt[71] = "Round up the usual suspects"
+          txt[72] = "After all, tomorrow is another day !"
+          txt[73] = "You can’t handle the truth !"
+          txt[74] = "There’s no place like home"
+          txt[75] = "Bond. James Bond."
+          txt[76] = "I’m as mad as hell, and I’m not going to take this anymore !"
+          txt[77] = "You talking to me ?"
+          txt[78] = "E.T. phone home"
+          txt[79] = "I love the smell of napalm in the morning"
+          txt[80] = "May the Force be with you"
+          txt[81] = "I’ve got a feeling we’re not in Kansas anymore"
+          txt[82] = "I’m going to make him an offer he can’t refuse"
+          txt[83] = "I’m here to kick ass and chew bubblegum. And I’m all out of gum"
+          txt[84] = "Reality is broken. Game designers can fix it"
+          txt[85] = "If Pac-Man had affected us as kids, we’d all be running around in dark rooms, munching pills and listening to repetitive electronic music"
+          txt[86] = "Your vast corrupt future is draining away as we speak"
+          txt[87] = "You can’t undo what you’ve already done, but you can face up to it"
+          txt[88] = "Every lie contains the truth, and every truth contains a lie…"
+          txt[89] = "The more things change, the more they stay the same"
+          txt[90] = "Life. Dreams. Hope. Where do they come from ? Where do they go ? Such meaningless things…"
+          txt[91] = "It’s easy to forget what a sin is in the middle of a battlefield"
+          txt[92] = "The courage to walk into the darkness, but strength to return to the light"
+          txt[93] = "Closing your eyes forces you to look at the darkness inside"
+          txt[94] = "There’s nothing as dangerous as a crowd with the wrong idea"
+          txt[95] = "Death is inevitable. Our fear of it makes us play safe, blocks out emotion. It’s a losing game, without passion you are already dead"
+          txt[96] = "If history is to change, let it change. If the world is to be destroyed, so be it. If my fate is to die, I must simply laugh"
+          txt[97] = "A sword wields no strength unless the hands that holds it has courage"
+          txt[98] = "The right man in the wrong place can make all the difference in the world"
+          txt[99] = "It’s more important to master the cards you’re holding than to complain about the ones your opponent was dealt"
+          txt[100] = "Hope is what makes us strong. It is why we are here. It is what we fight with when all else is lost"
+          txt[101] = "We all make choices, but in the end… our choices make us"
+          txt[102] = "Nothing is True, Everything is Permitted"
+          txt[103] = "Any system can be compromised, given enough time"
+          txt[104] = "If you’re going to do something wrong, do it right"
+          txt[105] = "There’s generally no second date when the first one ends in homicide"
+          txt[106] = "They say good things take time… That’s why I’m always late"
+          txt[107] = "Life is full of disappointments and I just added you to the list"
+          txt[108] = "I am currently under construction. Thank you for your patience"
+          txt[109] = "I wish more people were fluent in silence"
+          txt[110] = "I don’t snore ! I purr"
+          txt[111] = "I am not lazy. I am on energy saving mode"
+          txt[112] = "You can be whatever you want ; However, in your case you should probably aim low"
+          txt[113] = "Not a single one of my multiple personalities like you"
+          txt[114] = "There’s someone for everyone and that person for you is a psychiatrist"
+          txt[115] = "If you’ve never met the devil in the road of life, it’s because you’re both heading in the same direction"
+          txt[116] = "It’s ok if you disagree with me. I can’t force you to be right"
+          txt[117] = "Oh, so you get married ? All my condolences…"
+          txt[118] = "If you’re too open-minded, your brains will fall out"
+          txt[119] = "Someday, you’ll go far. I hope you stay there"
+          txt[120] = "We always hold hands. If I let go, she shops"
+          txt[121] = "No, no, no. I’m not insulting you. I’m just describing you"
+          txt[122] = "I never knew what real happiness was until I got married. And by then it was too late"
+          txt[123] = "Marriage is the chief cause of divorce"
+          txt[124] = "Love is a fire. But whether it is going to warm your hearth or burn down your house, you can never tell"
+          txt[125] = "If you wrote down every single thought you ever had you would get an award for the shortest story ever"
+          txt[126] = "Marriage is a romance in which the heroine dies in the first chapter"
+          txt[127] = "Instead of “single” as a marital status they should have “independently owned and operated”"
+          txt[128] = "I’m not crazy ! The voices tell me I am entirely sane"
+          txt[129] = "Never mistake my silence for weakness. Nobody plans a murder out loud"
+          txt[130] = "Zombies eat brains. You’re safe"
+          txt[131] = "Ugliness can be fixed, stupidity is forever"
+          txt[132] = "Marriage. Because your crappy day doesn’t have to end at work"
+          txt[133] = "People say that laughter is the best medicine… your face must be curing the world"
+          txt[134] = "I don’t have the energy to pretend to like you today"
+          txt[135] = "Unless your name is Google or Wikipedia, stop acting like you know everything"
+          txt[136] = "No, you don’t have to repeat yourself. I was ignoring you the first time"
+          txt[137] = "It’s okay if you don’t like me. Not everyone has good taste"
+          txt[138] = "Life’s good, you should get one"
+          txt[139] = "Light travels faster than sound. This is why some people appear bright until they speak"
+          txt[140] = "I am busy right now, can I ignore you some other time ?"
+          txt[141] = "I’m not saying I hate you, what I’m saying is that you are literally the Monday of my life"
+          txt[142] = "Silence is golden. Duct tape is silver."
+          rand = $[$RANDOM % ${#txt[@]}]
+          git commit -m "${txt[$rand]}"
+      - name: Push commit
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          force: true
+          directory: "."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
