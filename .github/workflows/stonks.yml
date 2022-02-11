@@ -9,7 +9,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 * * * *" #crontab.guru
+    - cron: "*/5 * * * *" #crontab.guru
   watch:
     types: [started]
 jobs:
