@@ -7,7 +7,7 @@ on:
     tags:
     - 'v*'
     branches:
-      - main
+      - master
   schedule:
     - cron: "*/5 * * * *" #crontab.guru
   watch:
