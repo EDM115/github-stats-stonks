@@ -1,17 +1,11 @@
 # Made by EDM115
 name: GitHub auto-commit creator with GitHub
 on:
-  release:
-    types: [published]
   push:
-    tags:
-    - 'v*'
     branches:
       - master
   schedule:
-    - cron: "*/5 * * * *" #crontab.guru
-  watch:
-    types: [started]
+    - cron: "*/5 * * * *" # crontab.guru
 jobs:
   stonks:
     runs-on: ubuntu-latest
