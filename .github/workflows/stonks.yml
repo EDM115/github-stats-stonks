@@ -169,7 +169,7 @@ jobs:
           rand=$[$RANDOM % ${#txt[@]}]
           git commit -m "${txt[$rand]}"
       - name: Push commit
-        uses: ad-m/github-push-action@v0.5.0
+        uses: ad-m/github-push-action@v0.6.0
         with:
           force: true
           directory: "."
