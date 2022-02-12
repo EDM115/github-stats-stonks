@@ -1,5 +1,5 @@
 # Made by EDM115
-name: GitHub auto-commit creator with GitHub
+name: GitHub stats stonks, works automatically through GitHub Actions
 on:
   push:
     branches:
