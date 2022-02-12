@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: "*/3 * * * *" # crontab.guru
 jobs:
-  commits-stonks:
+  stonks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -174,11 +174,7 @@ jobs:
           force: true
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
-jobs:
-  profile-view-stonks:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Adds 1 more profile view
+      - name: Adds 1 more profile view
         uses: gpuliyar/check-url-action@v1.0.1
         with:
           url: https://gpvc.arturio.dev/EDM115
