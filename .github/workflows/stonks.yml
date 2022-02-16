@@ -166,6 +166,17 @@ jobs:
           txt[140]="I am busy right now, can I ignore you some other time ?"
           txt[141]="I’m not saying I hate you, what I’m saying is that you are literally the Monday of my life"
           txt[142]="Silence is golden. Duct tape is silver."
+          txt[143]="Okay. I know you're mad, but before you say anything, yes, we screwed up. And yes, you warned us. And yes, I don't know where I'm going with this. But I do know this: I have reached the end of my sentence."
+          txt[144]="I’m not totally useless. I can be used as a bad example"
+          txt[145]="I’m a detective. I will detect"
+          txt[146]="Breakups are a cartoony thumbs down. They make people feel face-with-Xs-for-the-eyes"
+          txt[147]="You should make me your campaign manager. I was born for politics. I have great hair and I love lying"
+          txt[148]="It’s Gina’s phone. Leave me a voice mail. I won’t check it ’cause it’s not 1993"
+          txt[149]="Well, no one asked you. It’s a self-evaluation"
+          txt[150]="Title of your sex tape"
+          txt[151]="Sarge, with all due respect, I am gonna completely ignore everything you just said"
+          txt[152]="Captain, turn your greatest weakness into your greatest strength. Like Paris Hilton (RE : her sex tape)"
+          txt[153]="The English language can not fully capture the depth and complexity of my thoughts, so I’m incorporating emojis into my speech to better express myself. Winky face"
           rand=$[$RANDOM % ${#txt[@]}]
           git commit -m "${txt[$rand]}"
       - name: Push commit
