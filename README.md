@@ -1,9 +1,9 @@
 <div align="center">
-# github-stats-stonks  
-## Where GitHub stats goes brrrr…  
-
-![Stonks gif](https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp)
-
+<h1>github-stats-stonks</h1>  
+<h2>Where GitHub stats goes brrrr…</h2>  
+  
+![Stonks gif](https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp)  
+  
 ### Oh, so like that, you wanna fake your GitHub stats 🧐 Little cheater you are… But anyway, I'll help you 😁  
 </div>
 
