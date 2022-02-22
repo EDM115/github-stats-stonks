@@ -1,7 +1,7 @@
 # github-stats-stonks  
 ## Where GitHub stats goes brrrr…  
 
-![Stonks gif](❌❌❌❌)
+![Stonks gif](https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp)
 
 ### Oh, so like that, you wanna fake your GitHub stats 🧐 Little cheater you are… But anyway, I'll help you 😁  
 
@@ -103,8 +103,8 @@ Once again, [open an issue](https://github.com/EDM115/github-stats-stonks/issues
 
 + Would it consume all my quota of Actions ?  
 + In case you didn't knew, we does actually have a [limit](https://github.com/settings/billing) on free GitHub plans. 2000 h/month, but it resets every 14 days  
-+ Don't worry 😄 it uses 30 minutes per month, largely enough  
-+ ![](❌❌❌❌)  
++ Don't worry 😄 it uses 20-30 minutes per month, largely enough  
++ ![Free](https://telegra.ph/file/5b605e8d13cb67355702e.png)  
 + Would it nuke my account ?  
 + Normally, no. What we have on this repo is safe. I didn't included anything that GitHub would use against you. Nevertheless, the owners of the stats things that appears on your profile might ban you… Don't abuse of the system !  
 + It works but my circle didn't change 🥺
