@@ -4,7 +4,8 @@
   
 ![Stonks gif](https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp)  
   
-### Oh, so like that, you wanna fake your GitHub stats 🧐 Little cheater you are… But anyway, I'll help you 😁  
+### Oh, so like that, you wanna fake your GitHub stats 🧐  
+### Little cheater you are… But anyway, I'll help you 😁  
 </div>
 
 ---
@@ -39,10 +40,10 @@ Same as above
 Since you can open issues by yourself, in *theory* it's possible. Didn't have worked on it yet, you can still open an issue if you need it (but not my priority yet)  
 - [x] Profile views  
 This one is pretty easy to fake, and can't be against GitHub rules because it uses a 3rd party service 😃  
-- [x] Streak (see ❌❌❌❌ repo)  
+- [x] Streak (see [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) repo)  
 Yes it works, depending of the frequency you chosen  
-- [ ] More… ?  
-Open an issue  
+- [x] More… ?  
+[Open an issue](https://github.com/EDM115/github-stats-stonks/issues/new)  
 
 ---
 
@@ -108,7 +109,13 @@ Once again, [open an issue](https://github.com/EDM115/github-stats-stonks/issues
 + Would it consume all my quota of Actions ?  
 In case you didn't knew, we does actually have a [limit](https://github.com/settings/billing) on free GitHub plans. 2000 h/month, but it resets every 14 days  
 Don't worry 😄 it uses 20-30 minutes per month, largely enough  
-![Free](https://telegra.ph/file/5b605e8d13cb67355702e.png)  
+
+<div align="center">
+
+![Free](https://telegra.ph/file/5b605e8d13cb67355702e.png)
+
+</div>
+
 + Would it nuke my account ?  
 Normally, no. What we have on this repo is safe. I didn't included anything that GitHub would use against you. Nevertheless, the owners of the stats things that appears on your profile might ban you… Don't abuse of the system !  
 + It works but my circle didn't change 🥺
@@ -119,7 +126,13 @@ Yes it is 😄 But if you feel uncomfortable with this, or that you're a member 
 + It works, my contribution graph is stonksed but… it's disproportional and don't looks natural… 😓  
 Well ! You can slow down the number of commits per day ([check step 5](#how))  
 Now, if you're talking about **this** :  
-![](❌❌❌❌)  
+
+<div align="center">
+
+![Disproportionnal](https://telegra.ph/file/75c9854e505b70d51ba6b.png)  
+
+</div>
+
 Here's the solution :  
 1. Go on each of your projects
 2. Create a `TEMP` file (without any extension) at the root of your project
