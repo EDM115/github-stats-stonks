@@ -146,7 +146,7 @@ What we've done here ? We have basically boosted the number of commits in *anoth
 
 <a name="end"></a>**• Backstory of this repo, disclaimer and credits 🤝**  
 
-This repo were inspired by ❌blablabla❌, noticed a huge amount of commits in ❌❌❌ repo, blablabla
+This repo were inspired by [mazipan's work](https://github.com/mazipan/auto-commit), noticed a huge amount of commits in [MSO_E5_Dev_AutoRenew_Modified](https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified) repo, blablabla
 
 Disclaimer : I'm not responsible, made for learning purposes, to know more about GH actions, ❌❌❌
 
