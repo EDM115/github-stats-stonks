@@ -108,7 +108,7 @@ Once again, [open an issue](https://github.com/EDM115/github-stats-stonks/issues
 <a name="faq"></a><h3>• FAQ (is it legal, would it nuke my account, …) 😣</h3>  
 
 + Would it consume all my quota of Actions ?  
-In case you didn't knew, we does actually have a [limit](https://github.com/settings/billing) on free GitHub plans. 2000 h/month, but it resets every 14 days  
+In case you didn't knew, we does actually have a [limit](https://github.com/settings/billing) on free GitHub plans. 2000 min/month, but it resets every 14 days  
 Don't worry 😄 it uses 20-30 minutes per month, largely enough  
 
 <div align="center">
