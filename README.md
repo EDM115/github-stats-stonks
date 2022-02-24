@@ -15,6 +15,7 @@ Have been tested with the following projects :
 + [github-stats](https://github.com/jstrieb/github-stats)  
 + [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)  
 + [metrics](https://github.com/lowlighter/metrics)  
++ [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
 + *open an issue if it doesn't change anything on the one you're using, or if it's not among the above list*  
 
 ---
