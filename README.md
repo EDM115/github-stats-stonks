@@ -30,7 +30,7 @@ Have been tested with the following projects :
 
 ---
 
-<a name="what"></a>**• Which stats can be faked ? 🤔**  
+<a name="what"></a><h3>• Which stats can be faked ? 🤔</h3>  
 - [x] Commits  
 Obviously commits can be faked ! This repo were mainly made for that. It's simple, works automatically and it's reliable  
 - [ ] Stars  
@@ -48,7 +48,7 @@ Yes it works, depending of the frequency you chosen
 
 ---
 
-<a name="how"></a>**• How we can do that ? 🤩**  
+<a name="how"></a<h3>• How we can do that ? 🤩</h3>  
 
 It's pretty simple my tiger 😏 Just do follow the steps 👇  
 
@@ -71,7 +71,7 @@ Why are we using secrets ?
 	+ More examples at [`crontab.guru`](https://crontab.guru)
 ---
 
-<a name="limits"></a>**• What are the limits ? 😒**  
+<a name="limits"></a><h3>• What are the limits ? 😒</h3>  
 
 Limits are numerous 😭 Here, I'm going to tell what limits exists and I'll also tell some stats :
 
@@ -90,7 +90,7 @@ Time to run the action | 15-30s
 
 ---
 
-<a name="contributing"></a>**• I wanna contribute 🙋‍♂️**  
+<a name="contributing"></a><h3>• I wanna contribute 🙋‍♂️</h3>  
 
 As you may have noticed (or not), the name of the commits aren't "normal". They can be :  
 + Quotes  
@@ -105,7 +105,7 @@ Once again, [open an issue](https://github.com/EDM115/github-stats-stonks/issues
 
 ---
 
-<a name="faq"></a>**• FAQ (is it legal, would it nuke my account, …) 😣**  
+<a name="faq"></a><h3>• FAQ (is it legal, would it nuke my account, …) 😣</h3>  
 
 + Would it consume all my quota of Actions ?  
 In case you didn't knew, we does actually have a [limit](https://github.com/settings/billing) on free GitHub plans. 2000 h/month, but it resets every 14 days  
@@ -145,7 +145,7 @@ What we've done here ? We have basically boosted the number of commits in *anoth
 
 ---
 
-<a name="end"></a>**• Backstory of this repo, disclaimer and credits 🤝**  
+<a name="end"></a><h3>• Backstory of this repo, disclaimer and credits 🤝</h3>  
 
 This repo were inspired by [mazipan's work](https://github.com/mazipan/auto-commit), noticed a huge amount of commits in [MSO_E5_Dev_AutoRenew_Modified](https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified) repo, blablabla
 
