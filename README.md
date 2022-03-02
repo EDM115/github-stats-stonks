@@ -80,6 +80,7 @@ You need to create two :
 	+ Each 4 hours on working days : `0 */4 * * 1-5`
 	+ Twice a day every weekend : `0 8,20 * * 6,0`
 	+ More examples at [`crontab.guru`](https://crontab.guru)
+
 ---
 
 <a name="limits"></a><h3>• What are the limits ? 😒</h3>  
@@ -158,9 +159,13 @@ What we've done here ? We have basically boosted the number of commits in *anoth
 
 <a name="end"></a><h3>• Backstory of this repo, disclaimer and credits 🤝</h3>  
 
-This repo were inspired by [mazipan's work](https://github.com/mazipan/auto-commit), noticed a huge amount of commits in [MSO_E5_Dev_AutoRenew_Modified](https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified) repo, blablabla
+This repo were inspired by [mazipan's work](https://github.com/mazipan/auto-commit). I noticed a huge amount of commits in [MSO_E5_Dev_AutoRenew_Modified](https://github.com/zhtok/MSO_E5_Dev_AutoRenew_Modified) repo, so I started to wonder how it was possible to be that active 😳 But then, I saw what were in the `.yml` file, and then I started this project
 
-Disclaimer : I'm not responsible, made for learning purposes, to know more about GH actions, ❌❌❌
+**Disclaimer :** I'm not responsible for anything that can happen (including but not limited to repo deleting, profile dislable, contribution graph reset, ...). This project is made for learning purposes, to know more about GH actions and how the schedule works
 
-Credits :
-	random blabla ❌
+**Credits :**
++ [GitHub Actions](https://github.com/features/actions)
++ [ad-m](https://github.com/ad-m/github-push-action)
++ [actions](https://github.com/actions/checkout)
++ [gpuliyar](https://github.com/gpuliyar/check-url-action)
++ And [me](https://github.com/EDM115)
