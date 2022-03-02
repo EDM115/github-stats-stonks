@@ -48,22 +48,33 @@ Yes it works, depending of the frequency you chosen
 
 ---
 
-<a name="how"></a<h3>• How we can do that ? 🤩</h3>  
+<a name="how"></a><h3>• How we can do that ? 🤩</h3>  
 
 It's pretty simple my tiger 😏 Just do follow the steps 👇  
 
 1. Star this repo 🌟 (okay, this isn't mandatory, but it would help me so much 🥺 more stars means more motivation for me and I would do more projects. So please, consider starring this repo 🙏)  
+![Star me 🥺](https://telegra.ph/file/493f320a2956385f92551.png)  
+
 2. ~~Fork it 🍴~~ Ehhhh no, forking this repo will not work 😌 Why ? Take a look [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-made-in-a-fork) (TL;DR, commits on forked repositories doesn't count as yours until you do a pull request and that it's merged)
 3. You need to click on that `Use this template` button
-4. Once you're on your own version of my repo, go on `Settings → Secrets → Actions` and then click on `New repository secret`. You need to create two :
-	1. Use `USERNAME` as name and your username as value
+![Use da template](https://telegra.ph/file/35068421231679de2e861.jpg)  
+
+4. Once you're on your own version of my repo, go on `Settings → Secrets → Actions` and then click on `New repository secret`
+![Secrets](https://telegra.ph/file/4ba22a506f7b902fe9b8b.jpg)  
+
+You need to create two :
+	1. Use `USERNAME` as name and your username as value  
+![USERNAME](https://telegra.ph/file/eca740ffca1ea480786ab.png)  
 	2. Use `MAIL` as name and your mail adress as value  
-Why are we using secrets ?  
-	+ It's simpler, we don't have to modify dozen values on the code and we avoid in this way the risk to make a mistake
-	+ It keeps your mail adress private, unless other repos
+<img src="https://telegra.ph/file/95670123dfa7c20682fc0.png" alt="MAIL"/>  
+  
+<p>Why are we using secrets ?</p>
+
++ It's simpler, we don't have to modify dozen values on the code and we avoid in this way the risk to make a mistake
++ It keeps your mail adress private, unless other repos
 5. IT'S DONE 😝 Oh yeah but maybe you want it to runs at specific times… Well, here we go !
 	1. Go on `.github/workflows` and click on the `stonks.yml` file
-	2. Go at line №12 and modify the cron schedule Examples :  
+	2. Go at line №12 and modify the cron schedule. Examples :  
 	+ Every 15 minutes : `*/15 * * * *`
 	+ Every hour : `0 * * * *`
 	+ Each 4 hours on working days : `0 */4 * * 1-5`
