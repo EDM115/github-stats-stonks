@@ -73,7 +73,7 @@ You need to create two :
 + It's simpler, we don't have to modify dozen values on the code and we avoid in this way the risk to make a mistake
 + It keeps your mail adress private, unless other repos
 5. IT'S DONE 😝 Oh yeah but maybe you want it to runs at specific times… Well, here we go !
-	1. Go on [`.github/workflows`](/edit/master/.github/workflows/stonks.yml) and click on the `stonks.yml` file
+	1. Go on [`.github/workflows`](..../edit/master/.github/workflows/stonks.yml) and click on the `stonks.yml` file
 	2. Go at line №12 and modify the cron schedule. Examples :  
 	+ Every 15 minutes : `*/15 * * * *`
 	+ Every hour : `0 * * * *`
