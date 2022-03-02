@@ -62,7 +62,7 @@ It's pretty simple my tiger 😏 Just do follow the steps 👇
 4. Once you're on your own version of my repo, go on `Settings → Secrets → Actions` and then click on `New repository secret`
 ![Secrets](https://telegra.ph/file/4ba22a506f7b902fe9b8b.jpg)  
 
-You need to create two :
+You need to create two :  
 	1. Use `USERNAME` as name and your username as value  
 ![USERNAME](https://telegra.ph/file/eca740ffca1ea480786ab.png)  
 	2. Use `MAIL` as name and your mail adress as value  
