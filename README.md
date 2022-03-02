@@ -80,6 +80,10 @@ You need to create two :
 	+ Each 4 hours on working days : `0 */4 * * 1-5`
 	+ Twice a day every weekend : `0 8,20 * * 6,0`
 	+ More examples at [`crontab.guru`](https://crontab.guru)
+  
+
+Take a look at the [results](/commits/master)  
+See if it have failed [here](/actions)  
 
 ---
 
@@ -111,7 +115,7 @@ As you may have noticed (or not), the name of the commits aren't "normal". They 
 + Sarcastic things  
 + …  
 You want to add more ? 😳  
-[Open an issue](https://github.com/EDM115/github-stats-stonks/issues/new/choose), put `#quote` as title and type your sentence(s) that you wanna add to the project (if you have several, it's one per line). 99,9% of chances that it would be accepted
+[Open an issue](https://github.com/EDM115/github-stats-stonks/issues/new/choose), put `#quote` as title and type your sentence(s) that you wanna add to the project (if you have several, it's one per line). 99,9% of chances that it would be accepted  
 You see something wrong ? You have any problem with the script (non-working, …) ? You want to add a new functionality ?  
 Once again, [open an issue](https://github.com/EDM115/github-stats-stonks/issues/new), describe shortly but surely what your issue is about in the title (examples : `Not working`, `Add auto-issue`, `Wanna stonks several URL's`, …) and be detailed on the description
 
@@ -131,7 +135,7 @@ Don't worry 😄 it uses 20-30 minutes per month, largely enough
 
 + Would it nuke my account ?  
 Normally, no. What we have on this repo is safe. I didn't included anything that GitHub would use against you. Nevertheless, the owners of the stats things that appears on your profile might ban you… Don't abuse of the system !  
-+ It works but my circle didn't change 🥺
++ It works but my circle didn't change 🥺  
 Oh, so you're using anuraghazra’s repo ! Well, it's good but the commits don't have an enormous place on the way it calculates your rank  
 Unless he changes the formula, I can't do anything for you  
 + Is it legal 🧐  
