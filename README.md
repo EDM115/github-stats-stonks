@@ -82,7 +82,7 @@ You need to create two :
 	+ More examples at [`crontab.guru`](https://crontab.guru)
   
 
-Take a look at the [results](/commits/master)  
+Take a look at the [results](.../commits/master)  
 See if it have failed [here](/actions)  
 
 ---
