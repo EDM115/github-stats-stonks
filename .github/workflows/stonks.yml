@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - name: Modify last update
         run: |
-          d=`date '+%Y-%m-%d %H:%M:%S'`
+          d=`date '+%Y/%m/%dT%H:%M:%SZ'`
           echo $d > TEMP
       - name: Commit changes
         run: |
