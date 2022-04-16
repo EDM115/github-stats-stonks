@@ -4,7 +4,7 @@
   
 ![Stonks gif](https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp)  
   
-[![Stonks](https://github.com/EDM115/github-stats-stonks/workflows/GitHub+stats+stonks%2C+works+automatically+through+GitHub+Actions/badge.svg)](https://github.com/EDM115/github-stats-stonks/actions?query=workflow%3A%22GitHub+stats+stonks%2C+works+automatically+through+GitHub+Actions%22)
+[![STONKS !](https://github.com/EDM115/github-stats-stonks/actions/workflows/stonks.yml/badge.svg)](https://github.com/EDM115/github-stats-stonks/actions/workflows/stonks.yml)  
   
 ### Oh, so like that, you wanna fake your GitHub stats 🧐  
 ### Little cheater you are… But anyway, I'll help you 😁  
